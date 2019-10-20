@@ -1,5 +1,6 @@
 {
   "background_color": "#fff",
+  "theme_color": "#fff",
   "description": "Rooster Poedercoat",
   "display": "standalone",
   "orientation": "portrait",
