@@ -1,4 +1,4 @@
-var CACHE_NAME = 'rooster-cache-v2.0.1';
+var CACHE_NAME = 'rooster-cache-v2.0.0';
 var urlsToCache = [
   '/',
   '/rooster/',
@@ -14,7 +14,8 @@ var urlsToCache = [
   '/rooster/css/bootstrap.min.css',
   '/rooster/js/popper.min.js',
   '/rooster/js/jquery-3.3.1.slim.min.js',
-  '/rooster/manifest.json'
+  '/rooster/manifest.json',
+  '/rooster/manifest.webmanifest'
 ];
 
 self.addEventListener('install', function (event) {
@@ -47,7 +48,7 @@ self.addEventListener('fetch', function(event) {
   // Update service worker
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = 'rooster-cache-v2.0.1';
+  var cacheWhitelist = 'rooster-cache-v2.0.0';
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
