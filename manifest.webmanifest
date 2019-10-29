@@ -48,6 +48,5 @@
   ],
   "name": "Rooster Poedercoat",
   "short_name": "Rooster",
-  "start_url": "index.html",
-  "scope": "/"
+  "start_url": "/"
 }
